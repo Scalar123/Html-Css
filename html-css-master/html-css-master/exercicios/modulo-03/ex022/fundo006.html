@@ -7,12 +7,18 @@
 
     <style>
         body{
-            background-color: black;
-            background: url(imagens/wallpaper002.jpg) center top no-repeat;
+            height: 100vh;
+            /* ShortHand - background
+            color > image > position > repeat > size > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
-            width: 400px;
+            min-width: 50px;
+            max-width: 500px;
             padding: 20px;
             margin: auto;
             background-color: azure;
